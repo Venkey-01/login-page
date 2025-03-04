@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="login-box box" id="loginbox">
+            <h2>Login</h2>
+            <div class="input-box">
+                <div class="u-name in-box">
+                    <input type="text" placeholder="Username" required>
+                </div>
+                <div class="u-pass in-box">
+                    <input type="text" placeholder="Password" required>
+                </div>
+                <div class="for">
+                    <a href="">forget password ?</a>
+                </div>
+            </div>
+            <h3>OR</h3>
+            <div class="options">
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-microsoft"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="last">Create Account <button id="sign">sign up</button></div>
+        </div>
+        <div class="sign-box box" id="signbox">
+            <h1>Sign Up</h1>
+            <div class="inputs">
+                <div class="u-name boxes"><input type="text" placeholder="Username" required></div>
+                <div class="u-mail boxes"><input type="email" placeholder="E-mail" required></div>
+                <div class="u-pass boxes"><input type="text" placeholder="Password" required></div>
+            </div>
+            <div class="h3"><h3>OR</h3></div>
+            <div class="options">
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-microsoft"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="lasts">
+                <div><button id="register">Register</button></div>
+                <div><p>Already have an account</p>
+                <button id="login">Login</button></div>
+            </div>
+        </div>
+        <div class="reg" id="regbox">
+                <h1>Registered Succesfully ....</h1>
+            <button id="reglogin">Login</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
